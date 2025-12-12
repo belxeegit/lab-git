@@ -1,0 +1,33 @@
+=== Inicio del trabajo ===
+Fecha: Fri Dec 12 17:04:09 CET 2025
+Nodo: ampere
+Directorio: /home/alumno01/lab-git
+Tareas: 4
+OMP_NUM_THREADS: 1
+
+=== Ficheros originales ===
+-rw-rw-r--. 1 alumno01 alumno01 3.5M Dec 12 17:01 Sample1.fastq
+-rw-rw-r--. 1 alumno01 alumno01 3.2M Dec 12 17:02 Sample2.fastq
+-rw-rw-r--. 1 alumno01 alumno01 3.5M Dec 12 17:02 Sample3.fastq
+-rw-rw-r--. 1 alumno01 alumno01 3.2M Dec 12 17:02 Sample4.fastq
+
+=== Procesando ficheros en paralelo ===
+Procesado Sample2.fastq: 100000 lineas -> 10000 lineas (10%)
+Procesado Sample4.fastq: 100000 lineas -> 10000 lineas (10%)
+Procesado Sample1.fastq: 100000 lineas -> 10000 lineas (10%)
+Procesado Sample3.fastq: 100000 lineas -> 10000 lineas (10%)
+
+=== Renombrando ficheros cortados ===
+Renombrado Sample1.fastq.cut -> Sample1.fastq
+Renombrado Sample2.fastq.cut -> Sample2.fastq
+Renombrado Sample3.fastq.cut -> Sample3.fastq
+Renombrado Sample4.fastq.cut -> Sample4.fastq
+
+=== Ficheros finales ===
+-rw-rw-r--. 1 alumno01 alumno01 351K Dec 12 17:04 Sample1.fastq
+-rw-rw-r--. 1 alumno01 alumno01 314K Dec 12 17:04 Sample2.fastq
+-rw-rw-r--. 1 alumno01 alumno01 351K Dec 12 17:04 Sample3.fastq
+-rw-rw-r--. 1 alumno01 alumno01 320K Dec 12 17:04 Sample4.fastq
+
+=== Fin del trabajo ===
+Fecha: Fri Dec 12 17:04:09 CET 2025
